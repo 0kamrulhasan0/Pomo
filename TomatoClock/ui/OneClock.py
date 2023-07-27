@@ -92,7 +92,8 @@ class OneClock(QDialog, Ui_TomatoClockDlg):
         self.verticalLayout_4.insertWidget(0, UpgradeButton(self, self.updater))
 
     def _adjust_dialog(self):
-        self.setWindowFlags(Qt.FramelessWindowHint | Qt.Window | Qt.WA_TranslucentBackground)
+        #self.setWindowFlags(Qt.FramelessWindowHint | Qt.Window | Qt.WA_TranslucentBackground)
+        self.setWindowFlags(Qt.FramelessWindowHint)
         self.setAttribute(Qt.WA_TranslucentBackground)
         self.setWindowTitle(_("POMODORE"))
 
