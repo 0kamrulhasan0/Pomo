@@ -22,9 +22,6 @@ class UserConfig(metaclass=MetaConfigObj):
     LIVE_CODE_DOWNLOAD = True
     ANSWER_TIMEOUT_SECONDS = 30
     BREAK_MINUTES = {
-        "10MIN": 2,
-        "15MIN": 3,
-        "20MIN": 4,
         "25MIN": 5,
         "50MIN": 10
     }
