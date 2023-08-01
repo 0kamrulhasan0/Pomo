@@ -114,7 +114,7 @@ class OneClock(QDialog, Ui_TomatoClockDlg):
         # adjust item alignment
         list([item.setTextAlignment(Qt.AlignCenter) for item in self._min_items])
         # set default item
-        self._min_items[2].setSelected(True)
+        self._min_items[0].setSelected(True)
 
     def on_mode_toggled(self, mode, toggled):
         if toggled:
